@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".disclaimer">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="192dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-177dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/heading"
+        />
+
+    <TextView
+        android:id="@+id/article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/article_text" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/here"
+            android:text="@string/i_am_here_for"
+            android:paddingTop="20dp"
+            android:layout_below="@id/article"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/here"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+
+            <RadioButton
+                android:id="@+id/camel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/camel_riding"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/horse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horse Riding"
+                android:textSize="20dp" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/enter_detail"
+            android:text="Please Enter your Details"
+            android:layout_below="@id/here"
+            android:textSize="40dp"
+
+
+            />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/name"
+            android:hint="Full Name"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_below="@id/enter_detail"
+            android:textSize="25sp"
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary"
+        />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/mob_num"
+            android:hint="Mobile Number"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_below="@id/name"
+            android:textSize="25sp"
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary"
+            />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/eid"
+            android:hint="Emirates ID or Passport Number"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_below="@id/mob_num"
+            android:textSize="25sp"
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary"
+            />
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/date_time"
+            android:hint="Date &amp; Time"
+            android:ems="10"
+            android:inputType="datetime"
+            android:layout_below="@id/eid"
+            android:textSize="25sp"
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary"
+            />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/insurance"
+            android:hint="Medical Insurance Provider"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_below="@id/date_time"
+            android:textSize="25sp"
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary"
+            />
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/policy"
+            android:hint="Policy Number"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_below="@id/insurance"
+            android:textSize="25sp"
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/emergency"
+            android:text="Person To Contact In Case of Emergency"
+            android:layout_below="@id/policy"
+            android:textSize="40dp"
+
+            />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/emergency_name"
+            android:hint="Full Name"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_below="@id/emergency"
+            android:textSize="25sp"
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary"
+            />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/emergency_num"
+            android:hint="Mobile Number"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_below="@id/emergency_name"
+            android:textSize="25sp"
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:paddingTop="20dp"
+            android:id="@+id/pic_msg"
+            android:text="Please take a picture of your ID and Medical Insurance Together"
+            android:layout_below="@id/emergency_num"
+            android:textSize="40dp"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/take_pic"
+            android:layout_below="@id/pic_msg"
+            android:text="Take Photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/take_pic"
+            android:layout_marginTop="-41dp"
+            android:paddingTop="20dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:text="Submit"
+            android:layout_below="@+id/photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            />
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

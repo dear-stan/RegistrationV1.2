@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="heading">Welcome to <b>Al Jiyad Stable</b> (Henceforth "Horseback Riding").</string>
+    <string name="article_text">To ensure that you obtain the maximum enjoyment from your Leisure Activities, in a safe and responsible manner, we kindly request you to read this disclaimer carefully.
+
+    \n\n
+By signing below I, <b>the guest</b>, acknowledge that the Al Jiyad Stables, it\'s employees, agents, and associates will not be held responsible for any damages, injuries, illness, or irregularities which may occur whilst performing the selected activity below (Camel or Horse Riding).
+
+    \n\n
+I am fully aware that with the selected activity comes with associated risks. I fully understand the nature of the activity I have chosen to engage in and I confirm that I am physically and mentally able to perform the required actions in order to safely accomplish these activities. I am also fully aware and understand that the activities in which I am participating in under the arrangement of the Al Jiyad Stables, its employees, agents and associates are potentially dangerous and that there are risks inherent in all outdoors activities. These risks include but are not limited to hazards in walking, riding, hiking, driving, shooting and general outdoor activity. Risks associated with such activities include but are not limited to serious bodily injuries, such as permanent disability, paralysis and death. There are many risks that may come to me as a result of participating in these activities.
+
+    \n\n
+<b>I possess / have the necessary Private Medical Insurance coverage with the following carrier and policy number below to cover all my medical expenses in the event of an accident. I assume / undertake full liability for any medical &amp; non-medical expenses that occur in the event of an accident. I am also aware that the information I provided in accurate and correct and that participating in the below selected activity is not permitted if the necessary Private Medical Insurance Coverage is not available or covered.</b>
+
+
+    </string>
+    <string name="i_agree">I Agree</string>
+    <string name="todo">TODO</string>
+    <string name="i_am_here_for">I am here for</string>
+    <string name="camel_riding">Camel Riding</string>
+</resources>
